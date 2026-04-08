@@ -23,8 +23,6 @@ def main():
     )
 
     # COMMIT 1: Add -s flag for number of sides on a die
-<<<<<<< HEAD
-=======
     parser.add_argument(
         "-s", "--sides",
         dest="sides",
@@ -32,7 +30,6 @@ def main():
         default=6,
         help="Number of sides on a die (max=20; ignored when flipping a coin)"
     )
->>>>>>> 8df3e01 (Add -s flag for number of sides on a die)
 
     args = parser.parse_args()
 
