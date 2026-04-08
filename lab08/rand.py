@@ -59,7 +59,10 @@ def roll_dice(iterations, sides):
     # COMMIT 3: Restrict input range for dice iterations and sides
 
     # COMMIT 2: Add dice rolling logic and output dice sum and sequence
+    diceSum = random.randint(1, iterations * 6)
 
+    print("{} roll(s) of a {}-sided die resulted in a sum of {}:"
+            .format(iterations, sides, diceSum))
 
 
 if __name__ == "__main__":
